@@ -1,6 +1,10 @@
 .div-imge {
-    background-image: url('https://unsplash.com/es/fotos/yJozLVBxNA0/400x400');
+    background-image: url('C:\Users\C-SERMIL\Documents\ANGULARGIT\UNITED\UNITED-R\src\assets\ree.jpg');
     background-color:orange;
+
+    background-size: cover;
+    background-position: center;
+    height: 400px;
   height: 400px;
   width: 400px;
   display: flex;
@@ -30,7 +34,7 @@
   }
 article {
     position: relative;
-    border-radius: 16px;
+    border-radius: 400px;
     box-shadow: none;
     background: #fbd0d0;
     transform-origin: center;
@@ -63,7 +67,7 @@ article {
   }
   
   .article-body {
-    padding: 24px;
+    padding: 400px;
   }
   
   article a {
@@ -75,7 +79,7 @@ article {
   
   body {
     margin: 0;
-    padding: 48px 0;
+    padding: 400px 0;
     font-family: "Figtree", sans-serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
@@ -87,7 +91,7 @@ article {
     display: grid;
     max-width: 1200px;
     margin-inline: auto;
-    padding-inline: 24px;
+    padding-inline: 400px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 24px;
   }
