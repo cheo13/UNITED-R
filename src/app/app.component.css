@@ -2,7 +2,7 @@ article {
     position: relative;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px rgba(3, 251, 61, 0.721);
-    background: #d0fbd9;
+    background: #f7f8f7;
     transform-origin: center;
     transition: all 0.4s ease-in-out;
     overflow: hidden;
