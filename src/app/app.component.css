@@ -1,4 +1,4 @@
-h2:first{
+h2:first-of-type{
 
     color: yellow;
 }
