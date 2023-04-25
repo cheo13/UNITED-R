@@ -1,7 +1,8 @@
 div{
     background-color:yellow;
-    background-color:blue;
-    background-color:red;
+    
+    
+    
     height: 20px;
     width: 200px;
     margin: 10px;
@@ -17,9 +18,9 @@ div{
 }
 .segundo{
     color: blue;
-    
+    background-color:blue;
 }
 .tercero{
     color: red;
-
+    background-color:red;
 }
