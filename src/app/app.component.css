@@ -1,5 +1,7 @@
 div{
-    background-color: black;
+    background-color:yellow;
+    background-color:blue;
+    background-color:red;
     height: 20px;
     width: 200px;
     margin: 10px;
@@ -8,7 +10,6 @@ div{
 }
 .primero{
     color: yellow;
-    background-color: black;
     height: 20px;
     width: 200px;
     margin: 10px;
