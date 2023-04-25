@@ -1,4 +1,23 @@
-
+.div-imagen-fondo {
+    background-image: url(C:\Users\C-SERMIL\Documents\ANGULARGIT\UNITED\UNITED-R\src\assets\dee.jpg);
+    /* Para este ejemplo usamos el archivo que está dentro de una carpeta imagenes 
+    en nuestro proyecto */
+  
+    /* 
+    Puedes modificar como se ve la imagen de fondo con las siguientes propiedades:
+    */
+  
+    /*
+    ###########################
+    background-position:
+    background-repeat:background-size:
+    background-repeat:
+    background-attachment:
+    ###########################
+    */
+  
+    /* A continuación explicamos cada como funciona cada propiedad. */
+  }
 article {
     position: relative;
     border-radius: 16px;
