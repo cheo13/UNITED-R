@@ -1,12 +1,24 @@
-div:first-of-type{
+div{
+    background-color: black;
+    height: 20px;
+    width: 200px;
+    margin: 10px;
 
+    
+}
+.primero{
     color: yellow;
-}
-div:nth-of-type(2){
+    background-color: black;
+    height: 20px;
+    width: 200px;
+    margin: 10px;
 
-    color: green;
 }
-div:last-of-type{
-
+.segundo{
+    color: blue:
+    
+}
+.tercero{
     color: red;
+
 }
