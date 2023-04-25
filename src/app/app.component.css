@@ -1,8 +1,8 @@
 article {
     position: relative;
-    border-radius: 16px;
-    box-shadow: none;
-    background: #fbd0d0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.205);
+    background: #d0fbd9;
     transform-origin: center;
     transition: all 0.4s ease-in-out;
     overflow: hidden;
@@ -14,8 +14,10 @@ article {
     font-family: "Bebas Neue", cursive;
     font-size: 1.9rem;
     letter-spacing: 0.06em;
+    
     color: var(--title-color);
     transition: color 0.3s ease-out;
+
   }
   
   figure {
