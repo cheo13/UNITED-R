@@ -1,4 +1,7 @@
 
+.mi-img {
+    background: #f3c33f;
+  }
 figure {
     display: flex;
   flex-direction: column;
