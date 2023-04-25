@@ -1,6 +1,7 @@
 .image-re {
     background-image: url('https://unsplash.com/es/fotos/p6yH8VmGqxo');
     max-width: 100%;
+    height: auto;
   }
 article {
     position: relative;
