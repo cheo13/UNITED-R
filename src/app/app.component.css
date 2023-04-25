@@ -1,5 +1,11 @@
-.div-imagen-fondo {
+.div-imge {
     background-image: url(https://unsplash.com/es/fotos/yJozLVBxNA0);
+    background-color:orange;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     /* Para este ejemplo usamos el archivo que está dentro de una carpeta imagenes 
     en nuestro proyecto */
   
@@ -17,6 +23,10 @@
     */
   
     /* A continuación explicamos cada como funciona cada propiedad. */
+  }
+  .div-imge img {
+    max-width: 100%;
+    max-height: 100%;
   }
 article {
     position: relative;
