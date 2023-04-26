@@ -10,23 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-    /* Para este ejemplo usamos el archivo que está dentro de una carpeta imagenes 
-    en nuestro proyecto */
-  
-    /* 
-    Puedes modificar como se ve la imagen de fondo con las siguientes propiedades:
-    */
-  
-    /*
-    ###########################
-    background-position:
-    background-repeat:background-size:
-    background-repeat:
-    background-attachment:
-    ###########################
-    */
-  
-    /* A continuación explicamos cada como funciona cada propiedad. */
+
   }
   .div-imge img {
     max-width: 100%;
