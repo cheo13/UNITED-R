@@ -1,21 +1,4 @@
-.div-imge {
-    background-image: url('C:\Users\C-SERMIL\Documents\ANGULARGIT\UNITED\UNITED-R\src\assets\ree.jpg');
-    background-color:orange;
 
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-  height: 400px;
-  width: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  }
-  .div-imge img {
-    max-width: 100%;
-    max-height: 100%;
-  }
 article {
     position: relative;
     border-radius: 400px;
