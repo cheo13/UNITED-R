@@ -15,7 +15,7 @@ article {
   
   
   article h2 {
-    margin: 0 0 700px 0;
+    margin: 0 0 18px 0;
     font-family: "Bebas Neue", cursive;
     font-size: 1.9rem;
     letter-spacing: 0.06em;
@@ -23,12 +23,6 @@ article {
     transition: color 0.3s ease-out;
   }
   
-  figure {
-    margin: 0;
-    padding: 0;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-  }
   
   article img {
     max-width: 100%;
@@ -38,7 +32,7 @@ article {
   }
   
   .article-body {
-    padding: 700px;
+    padding: 24px;
   }
   
   article a {
@@ -50,7 +44,7 @@ article {
   
   body {
     margin: 0;
-    padding: 700px 0;
+    padding: 48px 0;
     font-family: "Figtree", sans-serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
@@ -60,9 +54,9 @@ article {
   
   .articles {
     display: grid;
-    max-width: 700px;
+    max-width: 1200px;
     margin-inline: auto;
-    padding-inline: 700px;
+    padding-inline: 24px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 24px;
   }
