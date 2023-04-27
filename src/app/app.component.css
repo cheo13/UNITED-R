@@ -13,10 +13,18 @@ article {
     transition: all 0.4s ease-in-out;
     overflow: hidden;
   }
-  
+  article h1 {
+    max-width: 100%;
+    margin: 7 7 7px 7;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.9rem;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+    transition: color 0.3s ease-out;
+  }
   
   article h2 {
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 0 18px 0;
     font-family: "Bebas Neue", cursive;
     font-size: 1.9rem;
