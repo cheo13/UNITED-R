@@ -6,7 +6,7 @@ figure {
 article {
     position: relative;
     border-radius: 16px;
-    box-shadow: 2px 2px 2px 1px rgba(237, 131, 26, 0.878);
+    box-shadow: 7px 7px 7px 7px rgba(237, 131, 26, 0.878);
   
     background: #fbd0d0;
     transform-origin: center;
