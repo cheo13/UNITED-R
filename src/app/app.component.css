@@ -6,6 +6,7 @@ figure {
 article {
     position: relative;
     border-radius: 700px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: none;
     background: #fbd0d0;
     transform-origin: center;
@@ -28,8 +29,7 @@ article {
   article img {
     max-width: 100%;
     transform-origin: center;
-    transform: scale(var(--img-scale));
-    transition: transform 0.4s ease-in-out;
+
   }
   
   .article-body {
@@ -45,7 +45,7 @@ article {
   
   body {
     margin: 0;
-    padding: 48px 0;
+    padding: 40px 0;
     font-family: "Figtree", sans-serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
