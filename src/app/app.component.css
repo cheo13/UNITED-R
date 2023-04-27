@@ -1,4 +1,8 @@
 
+figure {
+    display: flex;
+    justify-content: center;
+  }
 article {
     position: relative;
     border-radius: 700px;
