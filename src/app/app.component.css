@@ -15,6 +15,7 @@ article {
   
   
   article h2 {
+    max-width: 80%;
     margin: 0 0 18px 0;
     font-family: "Bebas Neue", cursive;
     font-size: 1.9rem;
