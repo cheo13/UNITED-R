@@ -10,6 +10,10 @@
     justify-content: center;
     align-items: center;
     width: 80%;
+    background: url("ruta/de/la/imagen.jpg") no-repeat center center fixed;
+    background-size: 80% 80%;
+    background-position: center;
+
 
   }
   .img-container img {
