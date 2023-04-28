@@ -11,7 +11,7 @@
     background-position: center;
     background-color: #fff;
     padding: 20px;
-    
+    width: 100%;
   }
   .img-container img {
     max-width: 100%;
