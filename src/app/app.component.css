@@ -13,12 +13,16 @@
     max-width: 100%;
     height: calc(100% - 30px);
     object-fit: cover;
-  box-shadow: 0 0 20px orange;
+    box-shadow: 0 0 20px orange;
 
   }
   @media only screen and (max-width: 768px) {
     .img-container img {
-      max-width: 100%;
+        height: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
   }
   @media only screen and (max-width: 768px) {
