@@ -4,26 +4,18 @@
 
 
 .img-container {
-    text-align: center;
-    margin: 0 auto;
-    background-color: rgb(255, 255, 255);
-    padding: 2% 2% 2% 2%;
-
-    box-shadow: 7% 7% 7% 7% rgba(237, 131, 26, 0.878);
-  
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
     
   }
   .img-container img {
     max-width: 100%;
-    height: auto;
-    width: 100%;
-    height: 15%;
+  height: auto;
+  width: 100%;
 
   }
 
