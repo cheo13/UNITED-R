@@ -4,7 +4,7 @@
     margin: 0 auto;
     box-shadow: 7px 7px 7px 7px rgba(237, 131, 26, 0.878);
   
-    background-color: rgb(255, 255, 255);
+    
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -27,6 +27,8 @@ article {
     transition: all 0.4s ease-in-out;
     overflow: hidden;
     max-width: 90%;
+    width: 80;
+    padding-bottom: 80%;
   }
   article h1 {
     max-width: 100%;
@@ -36,6 +38,8 @@ article {
     letter-spacing: 0.06em;
     color: var(--title-color);
     transition: color 0.3s ease-out;
+    text-align: center;
+    border-radius: 50px;
   }
   
   article h2 {
@@ -46,6 +50,7 @@ article {
     letter-spacing: 0.05em;
     color: var(--title-color);
     transition: color 0.3s ease-out;
+    border-radius: 50%;
   }
   
   
