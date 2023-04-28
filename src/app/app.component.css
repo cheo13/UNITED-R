@@ -1,19 +1,15 @@
 
 .img-container {
     text-align: center;
-    margin: 0 auto;
+    margin: 80%;
+    background-color: rgb(255, 255, 255);
     box-shadow: 7px 7px 7px 7px rgba(237, 131, 26, 0.878);
   
-    
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80%;
-    background: url("./assets/gar.avif") no-repeat center center fixed;
-    background-size: 80% 80%;
-    background-position: center;
-
 
   }
   .img-container img {
@@ -25,14 +21,12 @@
 article {
     position: relative;
     border-radius: 90%;
-   
+    
     background: #fbd0d0;
     transform-origin: center;
     transition: all 0.4s ease-in-out;
     overflow: hidden;
     max-width: 90%;
-    width: 80;
-    padding-bottom: 80%;
   }
   article h1 {
     max-width: 100%;
@@ -42,8 +36,6 @@ article {
     letter-spacing: 0.06em;
     color: var(--title-color);
     transition: color 0.3s ease-out;
-    text-align: center;
-    border-radius: 50px;
   }
   
   article h2 {
@@ -54,7 +46,6 @@ article {
     letter-spacing: 0.05em;
     color: var(--title-color);
     transition: color 0.3s ease-out;
-    border-radius: 50%;
   }
   
   
