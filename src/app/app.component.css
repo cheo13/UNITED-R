@@ -3,6 +3,7 @@
     text-align: center;
     margin: 80%;
     background-color: rgb(255, 255, 255);
+    padding: 110px 50px 50px 110px;
     padding: 100%;
     box-shadow: 7px 7px 7px 7px rgba(237, 131, 26, 0.878);
   
@@ -19,7 +20,9 @@
     max-width: 80%;
   }
     
-  
+  .article-body {
+    padding: 24px;
+  }
   
 
 article {
@@ -31,4 +34,13 @@ article {
     transition: all 0.4s ease-in-out;
     overflow: hidden;
     max-width: 90%;
+  }
+  h1 {
+    background-color: lime;
+    padding: 20px 50px;
+  }
+  
+  h2 {
+    background-color: cyan;
+    padding: 110px 50px 50px 110px;
   }
