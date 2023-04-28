@@ -1,17 +1,18 @@
 
 .img-container {
-    position: relative;
-    text-align: center;
-    background-color: #fff;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
   }
   .img-container img {
     position: absolute;
-  top: 30px;
-  left: 0;
-  right: 0;
-  width: 100%;
+    top: 30px;
+    left: 0;
+    right: 0;
+    max-width: 100%;
   height: auto;
   box-shadow: 0 0 20px orange;
+
   }
   @media only screen and (max-width: 768px) {
     .img-container img {
