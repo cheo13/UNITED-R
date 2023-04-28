@@ -12,12 +12,14 @@
     justify-content: center;
     align-items: center;
     width: 80%;
-    background-size: cover;
+    background: url('./assets/gar.avif') no-repeat center center;
+    background-size: contain;
+    
   }
   .img-container img {
     width: 80%;
     height: auto;
-
+display: block;
   }
     
 
