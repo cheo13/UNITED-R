@@ -20,21 +20,7 @@
     max-width: 80%;
   }
     
-  .article-body {
-    padding: 24px;
-  }
-  
 
-article {
-    position: relative;
-    border-radius: 90%;
-    
-    background: #fbd0d0;
-    transform-origin: center;
-    transition: all 0.4s ease-in-out;
-    overflow: hidden;
-    max-width: 90%;
-  }
   h1 {
     background-color: lime;
     padding: 20px 50px;
