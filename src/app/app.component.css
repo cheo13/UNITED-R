@@ -3,6 +3,7 @@
     text-align: center;
     margin: 80%;
     background-color: rgb(255, 255, 255);
+    padding: 20%;
     box-shadow: 7px 7px 7px 7px rgba(237, 131, 26, 0.878);
   
     height: 100vh;
@@ -14,14 +15,12 @@
   }
   .img-container img {
     width: 80%;
-    height: auto;
+    height: 40%;
     max-width: 80%;
   }
     
   
-  .img-body {
-    padding: 80;
-  }
+  
 
 article {
     position: relative;
@@ -35,7 +34,7 @@ article {
   }
   article h1 {
     max-width: 100%;
-    margin: 8px;
+    margin: 8px 8px 8px;
     font-family: "Bebas Neue", cursive;
     font-size: 1.9rem;
     letter-spacing: 0.06em;
@@ -45,7 +44,7 @@ article {
   
   article h2 {
     max-width: 100%;
-    margin: 16px 8px 8px;
+    margin: 16px 16px 16px;
     font-family: "Bebas Neue", cursive;
     font-size: 1.4rem;
     letter-spacing: 0.05em;
@@ -61,7 +60,7 @@ article {
   
   body {
     margin: 0;
-    padding: 80px 0;
+    padding: 25px 10px;
     font-family: "Figtree", sans-serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
