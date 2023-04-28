@@ -6,6 +6,7 @@
 .img-container {
     padding: 30px;
     display: flex;
+    box-shadow: none;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -26,7 +27,7 @@
 
     .contenedor {
         background-color: gray;
-        padding: 30px;
+        padding: 40px;
 
 
     }
