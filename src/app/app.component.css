@@ -5,7 +5,7 @@
     background-color: rgb(255, 255, 255);
     padding: 2% 2% 2% 2%;
 
-    box-shadow: 7px 7px 7px 7px rgba(237, 131, 26, 0.878);
+    box-shadow: 7% 7% 7% 7% rgba(237, 131, 26, 0.878);
   
     height: 100vh;
     display: flex;
@@ -18,7 +18,7 @@
   .img-container img {
     width: 80%;
     height: auto;
-display: block;
+
   }
     .contenedor {
         background-color: gray;
