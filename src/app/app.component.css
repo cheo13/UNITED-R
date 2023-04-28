@@ -1,28 +1,28 @@
 
+
+
+
+
 .img-container {
-    width: 100%;
-  position: relative;
-  text-align: center;
-  background-color: #fff;
+    
+  
+
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    padding: 20px;
+    
   }
   .img-container img {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    right: 0;
     max-width: 100%;
-    height: calc(100% - 30px);
-    object-fit: cover;
-    box-shadow: 0 0 20px orange;
+    width: 100;
+  height: auto;
+  box-shadow: 0 0 20px orange;
 
   }
   @media only screen and (max-width: 768px) {
     .img-container img {
-        height: auto;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
+      max-width: 100%;
     }
   }
   @media only screen and (max-width: 768px) {
@@ -32,9 +32,13 @@
     }
   }
 
+
+
     .contenedor {
         background-color: gray;
         padding: 40px;
+
+
     }
 
   h1 {
