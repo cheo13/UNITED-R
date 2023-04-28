@@ -20,7 +20,12 @@
     height: auto;
 display: block;
   }
-    
+    .contenedor {
+        background-color: gray;
+        padding: 30px;
+
+
+    }
 
   h1 {
     background-color: lime;
