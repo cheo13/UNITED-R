@@ -18,33 +18,33 @@
 
   @media only screen and (max-width: 576px) {
     .img-container img {
-      max-width: 100%;
-    }
-  }
-  @media only screen and (min-width: 577px) and (max-width: 768px) {
-    .img-container img {
       max-width: 80%;
     }
   }
-  
-  @media only screen and (min-width: 769px) and (max-width: 992px) {
-    .img-container img {
-      max-width: 70%;
+  @media only screen and (max-width: 576px) {
+    .img-container {
+      background-size: contain;
+      background-position: top;
     }
   }
-  
-  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+  @media only screen and (max-width: 768px) {
     .img-container img {
-      max-width: 60%;
+      max-width: 100%;
     }
   }
-  
-  @media only screen and (min-width: 1201px) {
-    .img-container img {
-      max-width: 50%;
+  @media only screen and (max-width: 768px) {
+    .img-container {
+      background-size: contain;
+      background-position: top;
     }
   }
- 
+
+
+
+
+
+
     .contenedor {
         background-color: gray;
         padding: 40px;
