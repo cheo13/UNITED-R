@@ -6,8 +6,8 @@
     width: 100%;
     border-radius: 20px; 
     display: flex;
-  justify-content: center;
-  align-items: center;
+   justify-content: center;
+   align-items: center;
       }
   .img-container img {
   max-width: 100%;
@@ -48,7 +48,8 @@
         background-color: gray;
         padding: 40px;
         border-radius: 10px;
-
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 20px;
     }
  
     h1, h2, p {
