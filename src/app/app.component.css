@@ -6,6 +6,8 @@
     width: 100%;
       }
   .img-container img {
+    float: left;
+  margin-right: 20px;
   max-width: 100%;
   width: 100;
   height: auto;
@@ -40,11 +42,6 @@
     }
   }
 
-
-
-
-
-
     .contenedor {
         background-color: gray;
         padding: 40px;
@@ -66,6 +63,17 @@
     background-color: orange;
     padding: 10px;
     border-radius: 10px;
+  }
+  @media only screen and (max-width: 576px) {
+    .contenedor {
+      max-width: 100%;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .contenedor {
+      background-size: contain;
+      background-position: top;
+    }
   }
 
   @media only screen and (max-width: 768px) {
