@@ -1,9 +1,10 @@
 **contenemos la
 .img-container {    
-    height: 400px;
+
     background-size: cover;
     background-position: center;
     background-color: #fff;
+    margin: 0;
     padding: 0px;
     max-width: 100%;
     width: 100%;
