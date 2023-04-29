@@ -1,22 +1,13 @@
-
-
-
-
-
-.img-container {
-    
-  
-
+.img-container {    
     background-size: cover;
     background-position: center;
     background-color: #fff;
     padding: 0px;
     width: 100%;
-    outline: 2px solid #ffa82e;
-  }
+      }
   .img-container img {
-    max-width: 100%;
-    width: 100;
+  max-width: 100%;
+  width: 100;
   height: auto;
   border-radius: 20px;
   box-shadow: 0 0 20px orange;
@@ -34,16 +25,12 @@
       background-position: top;
     }
   }
-
-
-
     .contenedor {
         background-color: gray;
         padding: 40px;
         border-radius: 10px;
 
     }
-
   h1 {
     background-color: lime;
     padding: 20px 50px;
