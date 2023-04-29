@@ -4,6 +4,7 @@
     background-color: #fff;
     padding: 0px;
     width: 100%;
+    border-radius: 20px;
       }
   .img-container img {
   max-width: 100%;
@@ -72,7 +73,7 @@
   }
   @media only screen and (max-width: 576px) {
     .contenedor {
-      max-width: 100%;
+      max-width: 80%;
     }
   }
   @media only screen and (max-width: 576px) {
