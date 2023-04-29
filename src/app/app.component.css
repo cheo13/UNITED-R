@@ -1,5 +1,6 @@
 **contenemos la
 .img-container {    
+    height: 400px;
     background-size: cover;
     background-position: center;
     background-color: #fff;
