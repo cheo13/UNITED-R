@@ -13,11 +13,11 @@
       **imagen dentro del contenedor 
   .img-container img {
   max-width: 100%;
-  padding: 0px;
   width: 100;
   height: auto;
   border-radius: 20px;
   box-shadow: 0 0 20px orange;
+  padding: 0px;
   transform: scale(var(--img-scale));
   transition: transform 0.4s ease-in-out;
   }
