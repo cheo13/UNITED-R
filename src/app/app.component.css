@@ -46,9 +46,10 @@
         border-radius: 10px;
 
     }
-    .animar-padding:hover {
-        padding: 20px;
-        transition: padding 0.5s ease-in-out;
+ 
+      .h1:hover{
+padding: 30px;
+
       }
   h1 {
     background-color: lime;
