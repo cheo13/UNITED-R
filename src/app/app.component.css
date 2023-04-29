@@ -34,15 +34,18 @@
   h1 {
     background-color: lime;
     padding: 20px 50px;
+    border-radius: 10px;
   }
   
   h2 {
     background-color: cyan;
-    padding: 110px 50px 50px 110px;
+    padding: 100px 50px 50px 100px;
+    border-radius: 10px;
   }
   p {
     background-color: orange;
-    padding: 10px
+    padding: 10px;
+    border-radius: 10px;
   }
 
   @media only screen and (max-width: 768px) {
