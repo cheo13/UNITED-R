@@ -47,9 +47,12 @@
 
     }
  
-      .h1:hover{
-padding: 30px;
-
+    h1, h2, p {
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      h1:hover, h2:hover, p:hover {
+        transform: scale(1.05);
       }
   h1 {
     background-color: lime;
