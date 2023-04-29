@@ -14,17 +14,37 @@
   transform: scale(var(--img-scale));
   transition: transform 0.4s ease-in-out;
   }
-  @media only screen and (max-width: 768px) {
+
+
+  @media only screen and (max-width: 576px) {
     .img-container img {
       max-width: 100%;
     }
   }
-  @media only screen and (max-width: 768px) {
-    .img-container {
-      background-size: contain;
-      background-position: top;
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    .img-container img {
+      max-width: 80%;
     }
   }
+  
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    .img-container img {
+      max-width: 70%;
+    }
+  }
+  
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .img-container img {
+      max-width: 60%;
+    }
+  }
+  
+  @media only screen and (min-width: 1201px) {
+    .img-container img {
+      max-width: 50%;
+    }
+  }
+ 
     .contenedor {
         background-color: gray;
         padding: 40px;
@@ -39,7 +59,7 @@
   
   h2 {
     background-color: cyan;
-    padding: 100px 50px 50px 100px;
+    padding: 90px 50px 50px 90px;
     border-radius: 10px;
   }
   p {
@@ -48,14 +68,62 @@
     border-radius: 10px;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 576px) {
     .contenedor {
       max-width: 100%;
+      padding: 20px;
+    }
+  
+    h1 {
+      padding: 10px 30px;
+    }
+  
+    h2 {
+      padding: 50px 30px 30px 50px;
+    }
+  
+    p {
+      padding: 5px;
+      font-size: 14px;
     }
   }
-  @media only screen and (max-width: 768px) {
+  
+  @media only screen and (min-width: 577px) and (max-width: 992px) {
     .contenedor {
-      background-size: contain;
-      background-position: top;
+      max-width: 80%;
+      padding: 30px;
+    }
+  
+    h1 {
+      padding: 15px 40px;
+    }
+  
+    h2 {
+      padding: 70px 40px 40px 70px;
+    }
+  
+    p {
+      padding: 8px;
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (min-width: 993px) {
+    .contenedor {
+      max-width: 60%;
+      padding: 40px;
+    }
+  
+    h1 {
+      padding: 20px 50px;
+    }
+  
+    h2 {
+      padding: 90px 50px 50px 90px;
+    }
+  
+    p {
+      padding: 10px;
+      font-size: 18px;
     }
   }
