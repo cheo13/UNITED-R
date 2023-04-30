@@ -1,41 +1,49 @@
-**contenemos la
+
+/* Estoy creando el contenedor de imagen*/
 .img-container {    
 
-    background-color: #fff;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  background-color: #fff;/*Establesco el color de fondo del contenedor */
+  border-radius: 20px;/*Le doy un radio de borde al contenedor en 20px*/
+  display: flex;/*Defino como elemento flexible para un posicionamiento h y v  */
+  justify-content: center;/*Centra los elementos dentro del contenedor h. */
+  align-items: center;/*Centra verticalmente */
+  overflow: hidden;/*Oculta cualquier contenido que sobresalga */
   margin: 0;
   padding: 0;
   width: 100%;
   max-width: 100%;
       }
+/* Estoy aplicando a la etiqueta img dentro de mi contenedor*/      
   .img-container img {
     
-    width: 100%;
-    height: auto;
-    margin: 0;
-    border-radius: 20px;
-    box-shadow: 0 0 20px orange;
-    object-fit: cover;
-    transition: transform 0.4s ease-in-out;
-    transform: scale(var(--img-scale));
+    width: 100%;/* Le doy el ancho de la imagen al 100% del ancho del contenedor*/
+    height: auto;/* Ajusta la altura de la imagen automaticamente*/
+    margin: 0;/* Se supone que eliminaria los bordes alrededor de la imagen pero aun tengo bordes en blanco*/
+    border-radius: 20px;/* Le doy una curva a sus bordes */
+    box-shadow: 0 0 20px orange;/* Agrego la sombra */
+    object-fit: cover;/* Ajusta la imagen para cubrir todo el contenedor mientras mantiene el aspecto de la imagen,
+                          Aqui la imagen debe coincidir con la del contenedor aunque en este caso parece que mi imagen 
+                           no llena la pantalla por lo tanto quedan bordes*/
+    transition: transform 0.4s ease-in-out;/* Crea una transicion para la transformacion de la imagen*/
+    transform: scale(var(1.05));/*Aplica una escala personalizada a la imagen */
 }
 
-
-  @media only screen and (max-width: 576px) {
+/* Aqui defino las media query que se aplicaran a pantallas de anchura max de 576px*/
+ @media only screen and (max-width: 576px) {
+    /*Selecciono la etiqueta a aplicarle su responsibidad */
     .img-container img {
-      max-width: 80%;
-    }
-  }
+      /* El ancho max de la imagen */
+        max-width: 80%;
+    } }
   @media only screen and (max-width: 576px) {
     .img-container {
-      background-size: contain;
-      background-position: top;
+     
+        background-size: contain;/*Esto ajusta el fondo proporcionalmente a la altura o anchura del contenedor */
+      background-position: top;/*Esto asegura el fondo del contenedor en la parte superior */
     }
   }
+
+/* */
 
   @media only screen and (max-width: 768px) {
     .img-container img {
@@ -49,20 +57,23 @@
     }
   }
 
+/*Aqui llamo la clase que esta en mi div ,html, el cual coloca todos los elementos dentro de el */
     .contenedor {
-        background-color: gray;
-        padding: 40px;
+        background-color: rgb(199, 153, 67);/*Pongo color de fondo a mi contenedor */
+        padding: 40px;/*Establezco el padding de 40px en todos los lados de mi padding */
         border-radius: 10px;
     
     }
- 
+ /* Llamo los elementos*/
     h1, h2, p {
-        transition: transform 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out;/*Se producira un cambio en estos elementos 
+                                                 al pasar el cursor sobre ellos, con una transformacion */
       }
-      
+      /* Aqui llamo los elementos seguidos de un :hover el cual amplia en un 5% su tamaño original pasando el cursor sobre el*/
       h1:hover, h2:hover, p:hover {
         transform: scale(1.05);
       }
+      /* Llamo los elementos html para asignarles un padding */
   h1 {
     background-color: lime;
     padding: 20px 50px;
@@ -79,6 +90,9 @@
     padding: 10px;
     border-radius: 10px;
   }
+
+
+  /*Aqui tambien estoy aplicando responsibidad a mis elementos html dentro del contenedor */
   @media only screen and (max-width: 576px) {
     .contenedor {
       max-width: 80%;
