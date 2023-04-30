@@ -2,7 +2,7 @@
 .img-container {    
 
     background-color: #fff;
-  border-radius: 20px;
+  border-radius: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,14 +10,14 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  max-width: 100%;
+  
       }
   .img-container img {
     
     width: 100%;
     height: auto;
     margin: 0;
-    border-radius: 20px;
+    border-radius: 20%;
     box-shadow: 0 0 20px orange;
     object-fit: cover;
     transition: transform 0.4s ease-in-out;
