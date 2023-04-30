@@ -8,6 +8,7 @@
   justify-content: center;/*Centra los elementos dentro del contenedor h. */
   align-items: center;/*Centra verticalmente */
   overflow: hidden;/*Oculta cualquier contenido que sobresalga */
+  box-shadow: 0 0 20px orange;/* Agrego la sombra */
   margin: 0;
   padding: 0;
   width: 100%;
