@@ -24,8 +24,7 @@
     object-fit: cover;/* Ajusta la imagen para cubrir todo el contenedor mientras mantiene el aspecto de la imagen,
                           Aqui la imagen debe coincidir con la del contenedor aunque en este caso parece que mi imagen 
                            no llena la pantalla por lo tanto quedan bordes*/
-    transition: transform 0.4s ease-in-out;/* Crea una transicion para la transformacion de la imagen*/
-    transform: scale(var(--img-scale));/*Aplica una escala personalizada a la imagen */
+    
 }
 
 /* Aqui defino las media query que se aplicaran a pantallas de anchura max de 576px*/
