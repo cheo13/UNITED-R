@@ -13,6 +13,7 @@
   padding: 0;
   width: 100%;
   max-width: 100%;
+  height: auto;
       }
 /* Estoy aplicando a la etiqueta img dentro de mi contenedor*/      
   .img-container img {
@@ -21,7 +22,7 @@
     height: auto;/* Ajusta la altura de la imagen automaticamente*/
     margin: 0;/* Se supone que eliminaria los bordes alrededor de la imagen pero aun tengo bordes en blanco*/
     border-radius: 20px;/* Le doy una curva a sus bordes */
-    box-shadow: 0 0 20px orange;/* Agrego la sombra */
+
     object-fit: cover;/* Ajusta la imagen para cubrir todo el contenedor mientras mantiene el aspecto de la imagen,
                           Aqui la imagen debe coincidir con la del contenedor aunque en este caso parece que mi imagen 
                            no llena la pantalla por lo tanto quedan bordes*/
